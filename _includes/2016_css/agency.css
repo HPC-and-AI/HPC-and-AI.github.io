@@ -348,7 +348,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 25vh;
+    padding-top: 12vh;
     padding-bottom: 50px;
 }
 
@@ -369,9 +369,18 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
+header .intro-text .intro-subtitle {
+    margin-bottom: 30px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 18px;
+    line-height: 1.4;
+    color: #ffffff;
+    font-weight: 500;
+}
+
 @media(min-width:768px) {    
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 180px;
         padding-bottom: 200px;
     }
 
@@ -390,6 +399,15 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    header .intro-text .intro-subtitle {
+        margin-bottom: 40px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 24px;
+        line-height: 1.5;
+        color: #ffffff;
+        font-weight: 500;
     }
 }
 
