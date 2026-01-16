@@ -1,26 +1,70 @@
-- title: Name
+- title: Sheng Di
   name: Name-1
-  subtitle: Position
+  subtitle: Computer Scientist with Argonne National Laboratory, USA.
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
-  description: More Info
+  description: Dr. Di is currently a computer scientist with Argonne National
+   Laboratory, USA. He has over 8 years of tutorial experience at toptier conferences, such as SC. His research interests involve resilience
+   in HPC (such as silent data corruption, optimization checkpoint
+   model, and in situ data compression) and broad research topics on
+   cloud computing. He is working on multiple HPC projects, such as
+   the detection of silent data corruption, characterization of failures
+   and faults for HPC systems. 
+   <br><br>
+   More details in https://web.cels.anl.gov/~sdi/
 
-- title: Name
+- title: Xiaoyi Lu
   name: Name-2
-  subtitle: Position
+  subtitle: Associate Professor at the University of California, Merced.
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
-  description: More Info
+  description: Dr. Xiaoyi Lu is an Associate Professor at the University of California, Merced. His research interests include parallel and distributed
+    computing, high-performance communication and I/O technologies, big data analytics, cloud computing, and deep learning. Dr. Lu
+    has published more than 180 papers in prestigious international
+    conferences, workshops, and journals. He has delivered over 100
+    invited talks, tutorials, and presentations around the world. Dr. Lu
+    is actively involved in various professional activities in academic
+    journals and conferences.
+    <br><br>
+    More details in https://sites.ucmerced.edu/luxi/
 
-- title: Name
+- title: Xiaodong Yu
   name: Name-3
-  subtitle: Position
+  subtitle: Assistant Professor at Stevens Institute of Technology.
   img: TBD.jpg
   thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
-  description: More Info
+  description: Dr. Xiaodong Yu is an Assistant Professor at Stevens Institute of
+    Technology. Before joining Stevens, he was an Assistant Computer
+    Scientist in the Mathematics and Computer Science Division at
+    Argonne National Laboratory. He has more than 15 years of experience in HPC, including algorithm and application acceleration
+    on GPUs, FPGAs, and a range of domain-specific accelerators. His
+    recent research has focused on high-performance deployment of
+    AI systems, including data reduction for LLMs, and collective communication patterns on multi-GPU and emerging AI accelerator
+    platforms. Dr. Yu has published more than 50 research papers in
+    top-tier HPC venues, including HPDC, ICS, SC, and IPDPS.
+    <br><br>
+    More details in https://www.stevens.edu/profile/xyu38
+
+- title: Zhaorui Zhang
+  name: Name-3
+  subtitle: Research assistant professor at the Hong Kong Polytechnic University.
+  img: TBD.jpg
+  thumbnail: TBD.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: Dr. Zhaorui Zhang is a research assistant professor at the Hong
+    Kong Polytechnic University. She has over 10 years of experience in high-performance computing and AI infrastructure, specializing in
+    system performance optimization across CPUs, GPUs, and FPGAs.
+    Her recent research focuses on optimizing system performance
+    for large-scale AI model training, fine-tuning, checkpointing, and
+    inference, with particular emphasis on model compression and
+    communication reduction. Dr. Zhang has published her work at numerous top-tier conferences and journals in the HPC field, including
+    SC, IPDPS, ICCD, TPDS, IJCAI, and AAAI.
+    <br><br>
+    More details in https://zhaorui-zhang.github.io/

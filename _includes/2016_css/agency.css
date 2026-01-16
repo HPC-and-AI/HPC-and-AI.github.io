@@ -339,7 +339,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/images/CWRU_view_cut.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -920,4 +920,22 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+/* Alternating background colors for sections */
+.bg-white-section {
+    background-color: #ffffff;
+    padding: 20px 100px;
+    margin: 0 -100px;
+}
+
+.bg-light-blue-section {
+    background-color: #f0f7ff;
+    padding: 20px 100px;
+    margin: 0 -100px;
+}
+
+.topic-section,
+.schedule-item {
+    margin: 10px 0;
 }

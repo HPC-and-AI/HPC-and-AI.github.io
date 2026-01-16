@@ -1,0 +1,112 @@
+<!-- Topics Section -->
+<section id="topics" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Topics</h2>
+                <h3 class="section-subheading text-muted">We will provide 
+                    both the Lecture and Hands-On Exercises in this tutorial. 
+                    The tutorial will cover basic and advanced <br>topics of applying
+                    the error-bounded lossy compression for large-scale model training
+                    in federated learning environments. <br>The tutorial is structured into
+                    7 main sections.
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="topics-content">
+                    
+                    <div class="topic-section bg-white-section">
+                        <h4><strong>Section 1</strong></h4>
+                        <p>we provide a comprehensive introduction to errorbounded lossy compression, including its underlying concept, motivation, and representative use cases. We also present an in-depth
+overview of large-scale model training within federated learning environments, covering its fundamental principles, parameter aggregation strategies, existing bottlenecks, limitations of current solutions, and open frameworks. Finally, we offer a detailed introduction to differential privacy, discussing its core concept, mechanisms for data protection, and applications in federated learning.</p>
+                    </div>
+                    
+                    <div class="topic-section bg-light-blue-section">
+                        <h4><strong>Section 2</strong></h4>
+                        <p>we present the motivation for employing errorbounded lossy compression to reduce communication overhead
+during large-scale model training in cross-silo federated learning
+systems. We further introduce an algorithm designed to estimate an
+appropriate error bound, thereby ensuring model accuracy while
+applying error-bounded lossy compression to model parameters.
+Additionally, we discuss resource utilization in large-scale model
+training within cross-silo federated learning environments, including CPUs, GPUs, and networks, and identify potential strategies
+for further enhancing system performance. Finally, we provide
+experimental results based on widely adopted benchmarks.</p>
+                    </div>
+                    
+                    <div class="topic-section bg-white-section">
+                        <h4><strong>Section 3</strong></h4>
+                        <p>we present the motivation for employing errorbounded 
+                            lossy compression of model parameters to simultaneously
+                            achieve communication efficiency and fairness in large-scale model
+                            training within cross-silo federated learning environments. 
+                            Additionally, we propose an algorithm for estimating an appropriate
+                            error bound based on the information entropy of the training data
+                            and model performance, thereby ensuring both communication
+                            efficiency and fairness. Furthermore, we provide a comprehensive
+                            theoretical analysis of the aggregation error introduced 
+                            by parameter compression. Finally, we present an extensive experimental
+                            evaluation using widely used benchmarks.</p>
+                    </div>
+                    
+                    <div class="topic-section bg-light-blue-section">
+                        <h4><strong>Section 4</strong></h4>
+                        <p>we will present the motivation for introducing
+differential privacy (DP) guarantees into the quantization process
+and review state-of-the-art DP-quantization approaches. We begin with a general guideline for injecting DP-guaranteed noise
+into the quantization process, followed by a taxonomy of existing
+DP-quantization methods and an overview of several representative techniques. We then introduce a unified analytical framework
+that we propose, which integrates standardized DP proofs and
+consistent utility analysis. Finally, we present key insights from our comprehensive reproduction and replication study of existing
+DP-quantization methods, and discuss their practical trade-offs,
+highlighting how these findings can inform the design of future
+DP-quantization mechanisms.</p>
+                    </div>
+                    
+                    <div class="topic-section bg-white-section">
+                        <h4><strong>Section 5</strong></h4>
+                        <p>we will introduce APPFL, a highly modular opensource framework designed to make privacy-preserving federated
+learning both practically deployable and easy to extend. It allows
+researchers and practitioners to freely mix and match FL algorithms,
+differential privacy mechanisms, communication protocols (MPI
+for HPC simulation and gRPC for real cross-institution deployment), models, and datasets in a true plug-and-play fashion. We
+will also introduce the core technical contribution about IIADMM,
+a new communication-efficient algorithm based on inexact ADMM
+that completely eliminates the transmission of dual variables from
+clients to server (unlike the earlier ICEADMM), thereby cutting
+communication volume roughly in half while matching or exceeding the accuracy of FedAvg and ICEADMM.</p>
+                    </div>
+                    
+                    <div class="topic-section bg-light-blue-section">
+                        <h4><strong>Section 6</strong></h4>
+                        <p>we introduce FedDES, a super-fast discrete-event
+simulator built specifically to predict the real-world runtime of huge
+federated learning systems with hundreds of thousands of devices.
+Instead of painfully running actual training tasks, FedDES profiles
+a small real deployment once, extracts the key costs (training time,
+model upload/download, aggregation), and then turns the entire FL
+process into a handful of timed events. Using SimGrid’s accurate
+network and compute modeling plus a smart priority-queue scheduler, it simulates synchronous (FedAvg), asynchronous (FedAsync),
+and semi-asynchronous (FedCompass) strategies under realistic
+heterogeneity, stragglers, and network conditions</p>
+                    </div>
+                    
+                    <div class="topic-section bg-white-section">
+                        <h4><strong>Section 7</strong></h4>
+                        <p>we provide a practical guide on deploying APPFL,
+an open framework designed for large-scale model training in federated learning environments. Additionally, we present a case study
+demonstrating the process of training large-scale models using this
+framework. To further analyze system performance in large-scale
+training scenarios, we introduce FedDES, a simulator capable of
+modeling collaboration among a large number of nodes during
+model training. We detail the deployment process of FedDES and
+illustrate how it can be utilized to evaluate system performance.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,152 @@
+<!-- Tentative Schedule Section -->
+<section id="Schedule" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Tentative Schedule</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="schedule-content">
+                    
+                    <div class="schedule-item">
+                        <h4>Introduction</h4>
+                        <p>Introduction of the Tutorial(<strong>5 min.</strong>) by Dr. Sheng Di.</p>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4><strong>Session 1</strong></h4>
+                        <p>Background of Error Bounded Lossy Compression
+and Large-Scale Model Training in Federated Environments (<strong>45 min.</strong>),
+by Dr. Sheng Di, Dr. Zhaorui Zhang, and Prof. Xiaodong Yu.</p>
+                        <ul class="session-list">
+                            <li>The introduction of the error-bounded lossy compression:
+includes the motivation of lossy compression; what is the
+error-bounded lossy compression; the most popular errorbounded lossy compressors; their use-cases;</li>
+                            <li>The introduction of the large-scale model training in federated learning environments: includes what is federated
+learning; the parameter aggregation strategies; the bottlenecks of such tasks; the limitations of existing solutions; and
+the open frameworks for federated learning.</li>
+                            <li>The introduction of differential privacy (DP): includes what
+differential privacy is, how differential privacy protects the
+data, and how to apply DP in federated learning.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4><strong>Session 2</strong></h4>
+                        <p>Error-Bounded Lossy Compression for Communication Reduction 
+                            for Large-Scale Model Training in Federated Environments ( 20 min.), 
+                            by Dr. Zhaorui Zhang.</p>
+                        <ul class="session-list">
+                            <li>The motivation why we want to using error-bounded lossy
+compression to compress the parameters for large-scale
+model training in federated learning systems.</li>
+                            <li>The algorithm to estimate an appropriate error bound that
+ensures the model accuracy while applying error-bounded
+lossy compression to model parameters.</li>
+                            <li>The resource utilization (CPUs, GPUs, and network) analysis
+and system performance optimization.</li>
+                            <li>Experiment results analysis about the error-bounded lossy
+parameter compression.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4><strong>Session 3</strong></h4>
+                        <p>Towards Fairness and Communication Efficiency
+for Large-Scale Model Training in Federated Environments based
+on Error-Bounded Lossy Parameter Compression ( 20 min.), by Dr.
+Zhaorui Zhang.</p>
+                        <ul class="session-list">
+                            <li>Motivation to use the error-bounded lossy compression to
+compress parameters to achieve the communication efficiency and fairness simultaneously.</li>
+                            <li>The algorithm to estimate an appropriate error bound for
+error-bounded lossy compressors that can guarantee the
+model accuracy and fairness simultaneously.</li>
+                            <li>Theoretical analysis for the aggregated error caused by the
+lossy parameter compression.</li>
+                            <li>Experiment results analysis about the error-bounded lossy
+parameter compression.</li>
+                        </ul>
+                        <p><strong>BREAK(30 min)</strong></p>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4><strong>Session 4</strong></h4>
+                        <p>Differentially Private Quantization for PrivacyPreserving and Communication-Efficient Federated Training ( 20 min.),
+by Prof. Xiaodong Yu.</p>
+                        <ul class="session-list">
+                            <li>The motivation why differential privacy (DP) should be integrated into quantization, and an overview of state-of-the-art
+DP-quantization approaches.</li>
+                            <li>Generic guidelines for injecting DP noise into the quantization pipeline and a structured categorization of existing
+DP-quantization methods.</li>
+                            <li>Introduction of representative DP-quantization techniques
+and our unified framework with standardized DP proofs and
+consistent utility analysis.</li>
+                            <li>Key findings from reproduction/replication studies and practical implications for designing next-generation DP-quantization
+mechanisms.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4><strong>Session 5</strong></h4>
+                        <p>APPFL: Open-Source Software Framework for
+Privacy-Preserving Federated Learning (<strong>20 min.</strong>), by Prof. Xiaoyi Lu.</p>
+                        <ul class="session-list">
+                            <li>We will introduce APPFL, a highly modular, open-source
+Python framework for privacy-preserving federated learning
+that allows plug-and-play combination of FL algorithms,
+differential privacy mechanisms, communication protocols
+(MPI and gRPC), models, and datasets.</li>
+                            <li>We will introduce a new communication-efficient algorithm
+called IIADMM of APPFL, which eliminates the need to
+transfer dual variables from clients to server while achieving
+equal or better accuracy than FedAvg and ICEADMM.</li>
+                            <li>We will introduce how the APPFL integrates Laplace-based
+output perturbation differential privacy and the experiment
+results of APPFL on multiple datasets that IIADMM consistently outperforms existing methods under strong privacy
+budgets (𝜖 = 3−10).</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4><strong>Session 6</strong></h4>
+                        <p>FedDES: Discrete Event Performance Simulation
+for Large-Scale Federated Learning ( <strong>20 min.</strong>), by Prof. Xiaoyi Lu.</p>
+                        <ul class="session-list">
+                            <li>The motivation why we want to proposing FedDES.</li>
+                            <li>The key design principle of the FedDES. How the FedDES
+simulates the large-scale federated learning.</li>
+                            <li>What kinds of training strategies can FedDES simulate for
+federated learning?</li>
+                            <li>The key results that FedDES achieved.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4><strong>Session 7</strong></h4>
+                        <p>Hands-On Exercises on Useful Federated Training
+Frameworks and Compression Tools. ( <strong>25 min.</strong>), by Prof. Xiaoyi Lu
+and Dr. Zhaorui Zhang.</p>
+                        <ul class="session-list">
+                            <li>How to deploy APPFL for federated learning;</li>
+                            <li>How to deploy FedDES, which is the simulator for federated
+learning and used for system performance analysis for largescale model training.</li>
+                            <li>How to integrate the error-bounded lossy compressors (such
+as LibPressio) into federated learning frameworks for communication reduction and privacy preserving.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <h4>Conclusion(<strong>5 min.</strong>)</h4>
+                        <p>Give a brief summary and conclude
+the tutorial, by ALL.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
